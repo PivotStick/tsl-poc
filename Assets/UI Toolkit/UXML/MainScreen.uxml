@@ -1,12 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenuScreen.uss?fileID=7433441132597879392&amp;guid=35278733832bf904d922f2ebd800baa4&amp;type=3#MainMenuScreen" />
-    <ui:VisualElement name="container">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainScreen.uss?fileID=7433441132597879392&amp;guid=35278733832bf904d922f2ebd800baa4&amp;type=3#MainMenuScreen" />
+    <ui:VisualElement name="container" class="menu-background">
         <ui:IMGUIContainer name="logo" />
-        <ui:VisualElement name="menu" class="bg--large-panel-02">
+        <ui:VisualElement name="menu" class="large-panel-02">
             <ui:Button text="PLAY" display-tooltip-when-elided="true" />
-            <ui:Button text="MY CARDS" display-tooltip-when-elided="true" />
-            <ui:Button text="SCANNER" display-tooltip-when-elided="true" />
-            <ui:Button text="SETTINGS" display-tooltip-when-elided="true" />
             <ui:Button text="QUIT" display-tooltip-when-elided="true" />
         </ui:VisualElement>
     </ui:VisualElement>

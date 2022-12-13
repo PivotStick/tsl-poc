@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/GameModeScreen.uss?fileID=7433441132597879392&amp;guid=d07adb6bfe577e443bbe48311afaed5b&amp;type=3#GameModeScreen" />
+    <ui:VisualElement class="menu-background">
+        <ui:VisualElement name="container" class="large-panel-02">
+            <ui:VisualElement name="head">
+                <ui:Label text="PLAY" display-tooltip-when-elided="true" name="title" class="on-panel-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

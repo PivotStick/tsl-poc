@@ -1,0 +1,18 @@
+#container {
+  margin: 32px;
+  padding: 48px;
+  height: 100%;
+}
+
+#head {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#title {
+  background-image: url("project://database/Assets/Textures/UI/Components7/bg_Title_textbox01_Opaque.png");
+  -unity-background-scale-mode: scale-to-fit;
+
+  width: 400px;
+  height: 60px;
+}

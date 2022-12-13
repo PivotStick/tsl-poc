@@ -4,36 +4,54 @@
   color: white;
 }
 
-.bg--large-panel-01 {
+.large-panel-01 {
   background-image: url("project://database/Assets/Textures/UI/Components6/Large panel01.png");
 }
 
-.bg--large-panel-02 {
+.large-panel-02 {
   background-image: url("project://database/Assets/Textures/UI/Components6/Large panel02.png");
 }
 
-.bg--large-panel-03 {
+.large-panel-03 {
   background-image: url("project://database/Assets/Textures/UI/Components6/Large panel03.png");
 }
 
-.bg--large-panel-04 {
+.large-panel-04 {
   background-image: url("project://database/Assets/Textures/UI/Components6/Large panel04.png");
 }
 
-.bg--middle-panel-01 {
+.middle-panel-01 {
   background-image: url("project://database/Assets/Textures/UI/Components6/middle panel01.png");
 }
 
-.bg--middle-panel-02 {
+.middle-panel-02 {
   background-image: url("project://database/Assets/Textures/UI/Components6/middle panel02.png");
 }
 
-.bg--middle-panel-03 {
+.middle-panel-03 {
   background-image: url("project://database/Assets/Textures/UI/Components6/middle panel03.png");
 }
 
-.bg--middle-panel-04 {
+.middle-panel-04 {
   background-image: url("project://database/Assets/Textures/UI/Components6/middle panel04.png");
+}
+
+.menu-background {
+  background-image: url("project://database/Assets/Textures/UI/2MainMenu/background.png");
+  -unity-background-scale-mode: scale-and-crop;
+  height: 100%;
+  width: 100%;
+}
+
+.on-panel-text {
+  -unity-font: url("project://database/Assets/Textures/UI/fonts/Exo-Medium.ttf");
+  -unity-font-definition: url("project://database/Assets/Textures/UI/fonts/Exo-Medium SDF.asset");
+
+  -unity-font-style: bold;
+
+  font-size: 22px;
+
+  color: rgb(0, 162, 255);
 }
 
 .unity-button {
