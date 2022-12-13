@@ -1,0 +1,58 @@
+@import url("UnityDefaultRuntimeTheme.tss");
+
+:root {
+  color: white;
+}
+
+.bg--large-panel-01 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/Large panel01.png");
+}
+
+.bg--large-panel-02 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/Large panel02.png");
+}
+
+.bg--large-panel-03 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/Large panel03.png");
+}
+
+.bg--large-panel-04 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/Large panel04.png");
+}
+
+.bg--middle-panel-01 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/middle panel01.png");
+}
+
+.bg--middle-panel-02 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/middle panel02.png");
+}
+
+.bg--middle-panel-03 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/middle panel03.png");
+}
+
+.bg--middle-panel-04 {
+  background-image: url("project://database/Assets/Textures/UI/Components6/middle panel04.png");
+}
+
+.unity-button {
+  background-image: url("project://database/Assets/Textures/UI/Components5/Btn_button03_n.png");
+  background-color: transparent;
+  border-width: 0;
+
+  -unity-font-style: bold;
+
+  margin: 0;
+  padding: 32px;
+}
+
+.unity-button:hover {
+  background-image: url("project://database/Assets/Textures/UI/Components5/Btn_button03_h.png");
+  background-color: transparent;
+}
+
+.unity-button:active {
+  background-image: url("project://database/Assets/Textures/UI/Components5/Btn_button03_p.png");
+  background-color: transparent;
+}

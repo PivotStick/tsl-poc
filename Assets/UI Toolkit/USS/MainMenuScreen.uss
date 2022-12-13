@@ -1,0 +1,21 @@
+#container {
+  padding: 64px;
+
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  background-image: url("project://database/Assets/Textures/UI/TSL_logo.png?fileID=2800000&guid=6664bb85aa3a1734da21b1272aad5ede&type=3#TSL_logo");
+  -unity-background-scale-mode: scale-to-fit;
+  height: 250px;
+  min-width: 350px;
+  margin: 64px;
+}
+
+#menu {
+  padding: 48px 32px;
+  flex-grow: 1;
+}
